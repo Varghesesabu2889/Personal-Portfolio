@@ -1,0 +1,235 @@
+/* Media Query for screens with a maximum width of 1400px */
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: calc(100% - 180px); /* Adjusting max-width for container */
+    }
+}
+
+/* Media Query for screens with a maximum width of 1200px */
+@media screen and (max-width: 1200px) {
+    .grid {
+        gap: 20px; /* Adjusting gap for grid */
+    }
+    .home__data {
+        padding-right: 40px; /* Adjusting padding for home data */
+    }
+    .home__title {
+        font-size: var(--big-font-size); /* Adjusting font size for home title */
+    }
+    .home__description {
+        font-size: var(--small-font-size); /* Adjusting font size for home description */
+    }
+    .stats__title {
+        padding-left: 35px; /* Adjusting padding for stats title */
+    }
+    .stats__title::before {
+        width: 22px; /* Adjusting width for the pseudo-element before stats title */
+    }
+    .skills__container {
+        row-gap: 32px; /* Adjusting row gap for skills container */
+    }
+    .progress__circle {
+        width: 100px; /* Adjusting width for progress circle */
+        height: 100px; /* Adjusting height for progress circle */
+    }
+    .skills__title {
+        margin-top: 20px; /* Adjusting margin top for skills title */
+    }
+    .resume__icon {
+        width: 36px; /* Adjusting width for resume icon */
+        height: 36px; /* Adjusting height for resume icon */
+        line-height: 38px; /* Adjusting line-height for resume icon */
+    }
+    .resume__item {
+        padding-left: 55px; /* Adjusting padding left for resume item */
+    }
+    .portfolio__modal-content {
+        max-width: 600px; /* Adjusting max-width for portfolio modal content */
+    }
+    .modal__close {
+        width: 40px; /* Adjusting width for modal close button */
+        height: 40px; /* Adjusting height for modal close button */
+    }
+    .form__input-group {
+        grid-template-columns: repeat(2, 1fr); /* Adjusting grid template columns for form input group */
+        column-gap: 24px; /* Adjusting column gap for form input group */
+    }
+    .form__input-group .form__input-div:last-child {
+        grid-column: 1/-1; /* Adjusting grid column for last child of form input group */
+    }
+    .form__input-div {
+        margin-bottom: 24px; /* Adjusting margin bottom for form input div */
+    }
+}
+
+/* Media Query for screens with a maximum width of 1024px */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 720px; /* Adjusting max-width for container */
+    }
+    .home {
+        padding: 20px; /* Adjusting padding for home */
+        grid-template-columns: 5fr 7; /* Adjusting grid template columns for home */
+    }
+    .home__data {
+        padding-right: 0; /* Resetting padding right for home data */
+    }
+    .section {
+        padding-block: 50px; /* Adjusting padding block for section */
+    }
+    .section__title {
+        margin-bottom: 40px; /* Adjusting margin bottom for section title */
+    }
+    .about__container,
+    .resume__container,
+    .contact__container {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for specific containers */
+    }
+    .about__container {
+        row-gap: 40px; /* Adjusting row gap for about container */
+    }
+    .subtitle__center {
+        margin-bottom: 45px; /* Adjusting margin bottom for subtitle center */
+    }
+    .skills__container {
+        grid-template-columns: repeat(3, 1fr); /* Adjusting grid template columns for skills container */
+    }
+    .resume__container {
+        row-gap: 45px; /* Adjusting row gap for resume container */
+    }
+    .resume__item:not(last-of-type) {
+        margin-bottom: 45px; /* Adjusting margin bottom for resume items except the last one */
+    }
+    .separator {
+        margin: 65px auto 50px; /* Adjusting margin for separator */
+    }
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr); /* Adjusting grid template columns for portfolio container */
+    }
+    .contact__container {
+        row-gap: 48px; /* Adjusting row gap for contact container */
+    }
+}
+
+/* Media Query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .home {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for home */
+        justify-items: center; /* Centering items in home */
+        row-gap: 10px; /* Adjusting row gap for home */
+    }
+    .color__block {
+        display: none; /* Hiding color block */
+    }
+    .home__img {
+        width: 270px; /* Adjusting width for home image */
+        height: 270px; /* Adjusting height for home image */
+        border-radius: 50%; /* Adding border-radius for home image */
+        margin-top: auto; /* Aligning home image to the bottom */
+    }
+    .home__content {
+        max-width: 500px; /* Adjusting max-width for home content */
+        text-align: center; /* Centering text in home content */
+        margin-bottom: auto; /* Aligning home content to the bottom */
+    }
+    .home__title {
+        padding-left: 0; /* Resetting padding left for home title */
+    }
+    .home__title::before {
+        all: unset; /* Resetting all styles for pseudo-element before home title */
+    }
+    .home__title span {
+        display: block; /* Displaying span as a block element */
+    }
+    .container {
+        max-width: 540px; /* Adjusting max-width for container */
+    }
+    .portfolio__modal-content {
+        padding: 25px 20px; /* Adjusting padding for portfolio modal content */
+    }
+    .modal__close {
+        top: -9%; /* Adjusting top position for modal close button */
+        right: 0; /* Aligning modal close button to the right */
+    }
+}
+
+/* Another Media Query for screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+    .nav__toggle {
+        top: 20px; /* Adjusting top position for navigation toggle */
+        right: 15px; /* Adjusting right position for navigation toggle */
+    }
+    .nav__link {
+        column-gap: 20px; /* Adjusting column gap for navigation links */
+    }
+    .nav__icon,
+    .nav__name {
+        font-size: var(--h3-font-size); /* Adjusting font size for navigation icon and name */
+    }
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr); /* Adjusting grid template columns for skills container */
+    }
+    .portfolio__container {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for portfolio container */
+    }
+    .modal__list {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for modal list */
+    }
+    .modal__img {
+        height: 300px; /* Adjusting height for modal image */
+    }
+    .form__input-group {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for form input group */
+    }
+    .theme__img {
+        width: 25px; /* Adjusting width for theme image */
+    }
+    .style__switcher-toggler,
+    .theme__toggler {
+        width: 40px; /* Adjusting width for switcher toggler and theme toggler */
+        height: 40px; /* Adjusting height for switcher toggler and theme toggler */
+    }
+    .style__switcher-toggler {
+        top: 15%; /* Adjusting top position for switcher toggler */
+    }
+    .theme__toggler {
+        bottom: 15%; /* Adjusting bottom position for theme toggler */
+    }
+    .style__switcher-close {
+        top: 5%; /* Adjusting top position for switcher close button */
+    }
+}
+
+/* Media Query for screens with a maximum width of 450px */
+@media screen and (max-width: 450px) {
+    .home__img {
+        display: none; /* Hiding home image */
+    }
+    .home__content {
+        margin-block: auto; /* Aligning home content to the bottom */
+        text-align: left; /* Setting text alignment to left for home content */
+    }
+    .home__title {
+        font-size: var(--h1-font-size); /* Adjusting font size for home title */
+    }
+    .home__description {
+        text-align: justify; /* Justifying text in home description */
+    }
+    .info__title {
+        display: block; /* Displaying info title as a block element */
+        margin-bottom: 4px; /* Adjusting margin bottom for info title */
+    }
+    .stats__box {
+        padding: 15px 15px 25px 20px; /* Adjusting padding for stats box */
+    }
+}
+
+/* Media Query for screens with a maximum width of 350px */
+@media screen and (max-width: 350px) {
+    .home__title span {
+        display: inline; /* Displaying span as an inline element */
+    }
+    .stats {
+        grid-template-columns: 1fr; /* Adjusting grid template columns for stats */
+    }
+}

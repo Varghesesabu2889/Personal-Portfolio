@@ -1,0 +1,168 @@
+/* Styles for the default state of the navigation menu */
+.nav__menu {
+    position: fixed;
+    inset-block: 0;
+    left: -100%;
+    background-color: var(--container-color);
+    width: 100%;
+    padding: 60px 30px;
+    transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    z-index: 100;
+}
+
+/* Class to show the menu by translating it into view */
+.show-menu {
+    left: 0;
+}
+
+/* Styles for navigation links */
+.nav__link {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    border-bottom: 1px solid var(--border-color);
+    padding-block: 14px;
+}
+
+/* Dark theme styles for navigation links */
+.dark-theme .nav__link {
+    border-color: hsl(0, 0%, 20%);
+}
+
+/* Styles for navigation icons and names */
+.nav__icon,
+.nav__name {
+    color: var(--title-color);
+    font-size: 24px;
+}
+
+/* Styles for navigation names */
+.nav__name {
+    font-weight: var(--weight-500);
+}
+
+/* Styles for active navigation links */
+.active-nav .nav__icon,
+.active-nav .nav__name {
+    color: var(--first-color);
+}
+
+/* Styles for the navigation toggle button */
+.nav__toggle {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--container-color);
+    padding: 12px 10px;
+    z-index: 100;
+}
+
+/* Styles for the three lines in the navigation toggle button */
+.nav__toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 2px;
+    background-color: var(--title-color);
+    margin-bottom: 5px;
+}
+
+/* Styles for the animated toggle button */
+.animate-toggle span:first-child {
+    transform: rotate(45deg) translate(6px, 4px);
+}
+
+.animate-toggle span:nth-child(2) {
+    display: none;
+}
+
+.animate-toggle span:last-child {
+    transform: rotate(-45deg) translate(1px, 1px);
+}
+
+/* Media query for screens with a maximum width of 1024px */
+@media screen and (max-width: 1024px) {
+    /* Reset styles for the navigation menu */
+    .nav__menu {
+        all: unset;
+    }
+
+    /* Hide the navigation toggle button */
+    .nav__toggle {
+        display: none;
+    }
+
+    /* Styles for the navigation in mobile view */
+    .nav {
+        position: fixed;
+        inset-block: 0;
+        right: 30px;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
+
+    /* Margin for navigation items in mobile view */
+    .nav__item {
+        margin-block: 20px;
+    }
+
+    /* Styles for the mobile navigation links */
+    .nav__link {
+        padding: 0;
+        border-bottom: none;
+        background-color: var(--container-color);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    /* Styles for mobile navigation icons */
+    .nav__icon {
+        font-size: 20px;
+        margin-inline: auto;
+    }
+
+    /* Styles for mobile navigation names */
+    .nav__name {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: var(--first-color);
+        height: 100%;
+        line-height: 50px;
+        padding-inline: 30px 25px;
+        border-radius: 30px;
+        font-size: var(--small-font-size);
+        color: var(--text-white);
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        transition: all 0.3s ease;
+    }
+
+    /* Styles for mobile navigation name on hover */
+    .nav__link:hover .nav__name {
+        right: 27px;
+        color: var(--text-white);
+        opacity: 1;
+        visibility: visible;
+        border-radius: 30px 0 0 30px;
+    }
+
+    /* Styles for mobile navigation link hover and active state */
+    .nav__link:hover,
+    .active-nav {
+        background-color: var(--first-color);
+    }
+
+    /* Styles for mobile navigation icon on hover and active state */
+    .nav__link:hover .nav__icon,
+    .active-nav .nav__icon {
+        color: var(--text-white);
+    }
+}

@@ -1,0 +1,114 @@
+/* Styles for the layout of the contact container */
+.contact__container {
+    grid-template-columns: 4fr 8fr;
+}
+
+/* Styles for the contact section title */
+.contact__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--weight-600);
+    margin-bottom: 1rem;
+}
+
+/* Styles for the contact section description */
+.contact__description {
+    font-size: var(--small-font-size);
+    line-height: 1.6;
+}
+
+/* Margin for contact description and info items */
+.contact__description,
+.contact__info .info__item {
+    margin-bottom: 20px;
+}
+
+/* Styles for the contact info items */
+.contact__info .info__item {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+/* Styles for the contact info icon */
+.contact__info .info__icon {
+    color: var(--first-color);
+    font-size: var(--h2-font-size);
+}
+
+/* Styles for the contact info title */
+.contact__info .info__title {
+    font-size: var(--small-font-size);
+}
+
+/* Styles for the contact info description */
+.contact__info .info__desc {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: var(--weight-500);
+}
+
+/* Styles for the social links section */
+.contact__socials {
+    display: flex;
+    column-gap: 16px;
+}
+
+/* Styles for the individual social links */
+.contact__social-link {
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 44px;
+    transition: all .3s ease;
+}
+
+/* Hover styles for social links */
+.contact__social-link:hover {
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+/* Styles for the form input group */
+.form__input-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+/* Styles for the form input div */
+.form__input-div {
+    margin-bottom: 30px;
+}
+
+/* Styles for the form input control */
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+/* Focus styles for the form input control */
+.form__control:focus {
+    border-color: var(--first-color);
+}
+
+/* Styles for the textarea in the form */
+.textarea {
+    resize: none;
+    height: 260px;
+    width: 340%;
+}
+
+/* Styles for the contact button icon */
+.contact__button-icon {
+    font-size: var(--h3-font-size);
+    line-height: 64px;
+}

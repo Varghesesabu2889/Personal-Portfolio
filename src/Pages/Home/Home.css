@@ -1,0 +1,66 @@
+/* Styles for the home section */
+.home {
+    grid-template-columns: 4.32fr 7.68fr; /* Grid layout with specified column widths */
+    align-items: center; /* Center align items in the grid */
+    padding: 40px; /* Padding for the home section */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Styles for the image within the home section */
+  .home__img {
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Cover the container with the image */
+    border-radius: 30px; /* Rounded corners for the image */
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3); /* Box shadow for the image */
+    z-index: 1; /* Set a z-index to place the image above other elements */
+  }
+  
+  /* Styles for the data within the home section */
+  .home__data {
+    max-width: 600px; /* Maximum width for the data container */
+    margin-inline: auto; /* Center align the container horizontally */
+    padding-top: 20px; /* Top padding for the data container */
+  }
+  
+  /* Styles for the title within the home section */
+  .home__title {
+    position: relative; /* Position relative for positioning pseudo-element */
+    font-size: var(--hl-font-size); /* Font size for the title */
+    line-height: 1.24; /* Line height for the title */
+    padding-left: 70px; /* Left padding for the title */
+  }
+  
+  /* Styles for the colored span within the title */
+  .home__title span {
+    color: var(--first-color); /* Color for the span within the title */
+  }
+  
+  /* Pseudo-element to create a line before the title */
+  .home__title::before {
+    content: ''; /* Empty content for the pseudo-element */
+    position: absolute; /* Position absolute for absolute positioning */
+    left: 0; /* Position the pseudo-element to the left of the title */
+    top: 22%; /* Position the pseudo-element vertically */
+    width: 40px; /* Width of the pseudo-element */
+    height: 5px; /* Height of the pseudo-element */
+    border-radius: 10px; /* Rounded corners for the pseudo-element */
+    background-color: var(--first-color); /* Color for the pseudo-element */
+  }
+  
+  /* Styles for the description within the home section */
+  .home__description {
+    line-height: 2.125; /* Line height for the description */
+    margin-block: 16px 32px; /* Margin for the description */
+  }
+  
+  /* Styles for a colored block in the background */
+  .color__block {
+    position: fixed; /* Fixed position for the colored block */
+    height: 200%; /* Height of the colored block */
+    width: 100%; /* Width of the colored block */
+    background-color: var(--first-color); /* Color for the colored block */
+    top: -50%; /* Position the block above the viewport */
+    left: -83%; /* Position the block to the left of the viewport */
+    transform: rotate(-15deg); /* Rotate the block by -15 degrees */
+  }
+  
