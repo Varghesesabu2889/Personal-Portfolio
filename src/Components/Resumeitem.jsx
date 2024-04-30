@@ -18,6 +18,7 @@ const Resumeitem = ({ icon, year, title, desc }) => {
 
       {/* Display the description of the resume item */}
       <p className="resume__description">{desc}</p>
+
     </div>
   );
 }

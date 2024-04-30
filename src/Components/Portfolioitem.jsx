@@ -39,17 +39,20 @@ const Portfolioitem = ({ img, title, details }) => {
             {/* Create an unordered list for the details of the portfolio item in the modal */}
             <ul className="modal__list grid">
               {/* Use map function to iterate over each object in the details array */}
-              {details.map(({ icon, title, desc }, index) => {
-                // Return a list item for each object in the details array
+              {/* {details.map(({ icon, title, desc,data }, index) => { */}
+              {details.map((item,index)=>{
+                // Return a list item for each object, in the details array
                 return (
                   <li className="modal__item" key={index}>
                     {/* Display the icon for the detail */}
-                    <span className="item__icon">{icon}</span>
+                    <span className="item__icon">{item.icon}</span>
 
                     {/* Display the title and description for the detail */}
                     <div>
-                      <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
+                      <span className="item__title">{item.title}</span>
+                      <span className="item__details">{item.desc}</span>
+                      <a href={item.data}  target="_blank" rel="noopener noreferrer" style={{"textDecoration":'none'}}>{item.data}</a>
+                      {/* <a href={item.data}>{data}</a> */}
                     </div>
                   </li>
                 );

@@ -72,7 +72,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '21 Years',
+    description: '22 Years',
   },
   {
     id: 4,
@@ -97,12 +97,12 @@ export const personalInfo = [
   {
     id: 8,
     title: 'GitHub : ',
-    description: 'https://github.com/Varghesesabu2889',
+    data: 'https://github.com/Varghesesabu2889',
   },
   {
     id: 9,
     title: 'linkedin : ',
-    description: 'www.linkedin.com/in/varghese-sabu-2b747b283',
+    data: 'www.linkedin.com/in/varghese-sabu-2b747b283',
   },
   {
     id: 10,
@@ -141,9 +141,9 @@ export const resume = [
     id: 1,
     category: 'Internship',
     icon: <FaBriefcase />,
-    year: '2023 SEPTEMBER - PRESENT',
+    year: '2023 SEPTEMBER - 2024 APRIL',
     title: 'MEA(R)N STACK<span>WEB DEVELOPMENT  </span>',
-    desc: 'A MEARN (MongoDB, Express.js, React.js, Angular, and Node.js) stack development course provides comprehensive training in building modern web applications. Currently interning at Luminar Technolab Kochi',
+    desc: 'A ME(A)RN (MongoDB, Express.js, React.js, Angular, and Node.js) stack development course provides comprehensive training in building modern web applications. Currently interning at Luminar Technolab Kochi',
   },
   {
     id: 2,
@@ -173,7 +173,7 @@ export const resume = [
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2018',
+    year: 'JULY 2018',
     title: 'Higher Secondary <span> Plus two  </span>',
     desc: 'Higher Secondary Education, often referred to as "Plus Two," generally represents the last two years of pre-university education. It typically includes students in the 11th and 12th grades, providing a more specialized and in-depth curriculum and serves as a preparatory stage for higher education or vocational training. Studied at Holy Family Higher School Cherthala.',
   },
@@ -181,7 +181,7 @@ export const resume = [
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2018',
+    year: 'MARCH 2018',
     title: 'High School <span> Tenth </span>',
     desc: `High school or tenth grade typically refers to the last year of compulsory education before students move on to higher levels of education or enter the workforce. In many educational systems, high school encompasses grades 9 to 12, with the tenth grade representing the second year of this phase. Studied at St Theresa's High School Manappuram.`,
   },
@@ -207,27 +207,27 @@ export const skills = [
   {
     id: 4,
     title: 'Figma',
-    percentage: '83',
+    percentage: '65',
   },
   {
     id: 5,
     title: 'React',
-    percentage: '66',
+    percentage: '79',
   },
   {
     id: 6,
     title: 'Angular',
-    percentage: '15',
+    percentage: '69',
   },
   {
     id: 7,
     title: 'MongoDB',
-    percentage: '10',
+    percentage: '82',
   },
   {
     id: 8,
     title: 'Express',
-    percentage: '25',
+    percentage: '76',
   },
 ];
 
@@ -246,7 +246,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/Netflix-front-clone.git',
+        data: 'https://github.com/Varghesesabu2889/Netflix-front-clone.git',
       },
       {
         icon: <FaCode />,
@@ -256,7 +256,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://react-netflixwebsite.netlify.app/',
+        data: 'https://react-netflixwebsite.netlify.app/',
       },
     ],
   },
@@ -273,7 +273,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/cinema-factory.git',
+        data: 'https://github.com/Varghesesabu2889/cinema-factory.git',
       },
       {
         icon: <FaCode />,
@@ -283,7 +283,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://cinema-company.netlify.app/',
+        data: 'https://cinema-company.netlify.app/',
       },
     ],
   },
@@ -300,7 +300,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/Developer-Game.git',
+        data: 'https://github.com/Varghesesabu2889/Developer-Game.git',
       },
       {
         icon: <FaCode />,
@@ -310,7 +310,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://developergame.netlify.app/',
+        data: 'https://developergame.netlify.app/',
       },
     ],
   },
@@ -327,7 +327,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/media-app-frontend.git',
+        data: 'https://github.com/Varghesesabu2889/media-app-frontend.git',
       },
       {
         icon: <FaCode />,
@@ -337,7 +337,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://media-player-reactt.netlify.app/',
+        data: 'https://media-player-reactt.netlify.app/',
       },
     ],
   },
@@ -354,7 +354,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/Stopwatch.git',
+        data: 'https://github.com/Varghesesabu2889/Stopwatch.git',
       },
       {
         icon: <FaCode />,
@@ -364,7 +364,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://react-stop-watchh.netlify.app/',
+        data: 'https://react-stop-watchh.netlify.app/',
       },
     ],
   },
@@ -381,7 +381,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        desc: 'https://github.com/Varghesesabu2889/food-recipe.git',
+        data: 'https://github.com/Varghesesabu2889/food-recipe.git',
       },
       {
         icon: <FaCode />,
@@ -391,7 +391,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Netlify : ',
-        desc: 'https://recipieapp-react.netlify.app/',
+        data: 'https://recipieapp-react.netlify.app/',
       },
     ],
   },

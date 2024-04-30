@@ -10,14 +10,16 @@ const Info = () => {
   return (
     <>
       {/* Use map function to iterate over each object in the personalInfo array */}
-      {personalInfo.map(({ title, description }, index) => {
+      {personalInfo.map((item,index) => {
         // Return a list item for each object in the personalInfo array
         return (
           <li className="info__item" key={index}>
             {/* Display the title of the personal information */}
-            <span className="info__title">{title}</span>
+            <span className="info__title">{item.title}</span>
             {/* Display the description of the personal information */}
-            <span className="info__description">{description}</span>
+            <span className="info__description">{item.description}</span>
+            <a href={item.data}  target="_blank" rel="noopener noreferrer" style={{"textDecoration":'none'}}>{item.data}</a>
+
           </li>
         );
       })}
