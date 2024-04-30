@@ -55,21 +55,23 @@ const Contact = () => {
 
           {/* Social links */}
           <div className="contact__socials">
-            {/* Facebook */}
-            <a href="https://www.facebook.com/varkychan.sabu" target='_blank' className="contact__social-link">
-              <FaFacebookF />
-            </a>
-            {/* GitHub */}
-            <a href="https://github.com/Varghesesabu2889" target='_blank' className="contact__social-link">
+              {/* GitHub */}
+              <a href="https://github.com/Varghesesabu2889" target='_blank' className="contact__social-link">
               <FaGithub />
             </a>
-            {/* LinkedIn */}
-            <a href="www.linkedin.com/in/varghese-sabu-2b747b283" target='_blank' className="contact__social-link">
+           
+             {/* LinkedIn */}
+            <a href="https://www.linkedin.com/in/varghese-sabu/" target='_blank' className="contact__social-link">
               <FaLinkedin />
             </a>
+
             {/* WhatsApp */}
-            <a href="https://web.whatsapp.com/+918281072889" target='_blank' className="contact__social-link">
+            <a href="https://wa.me/+918281072889" target='_blank' className="contact__social-link">
               <FaWhatsapp />
+            </a>
+             {/* Facebook */}
+             <a href="https://www.facebook.com/varkychan.sabu" target='_blank' className="contact__social-link">
+              <FaFacebookF />
             </a>
           </div>
         </div>

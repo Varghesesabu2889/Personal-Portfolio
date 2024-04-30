@@ -102,7 +102,7 @@ export const personalInfo = [
   {
     id: 9,
     title: 'linkedin : ',
-    data: 'www.linkedin.com/in/varghese-sabu-2b747b283',
+    data: 'https://www.linkedin.com/in/varghese-sabu/',
   },
   {
     id: 10,
