@@ -3,6 +3,7 @@ import './Home.css'; // Importing styles for the Home component
 import Profile from "../../assets/home.png"; // Importing the profile image
 import { Link } from 'react-router-dom'; // Importing Link component from react-router-dom
 import { FaArrowRight } from "react-icons/fa"; // Importing ArrowRight icon from react-icons/fa
+import { FaHireAHelper } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -23,6 +24,12 @@ const Home = () => {
             More About Me
             <span className='button__icon'>
               <FaArrowRight />
+            </span>
+          </Link> &nbsp;&nbsp;&nbsp;
+          <Link className='button'>
+            Hire Me
+            <span className='button__icon'>
+            <FaHireAHelper />
             </span>
           </Link>
         </div>

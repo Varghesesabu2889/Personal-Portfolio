@@ -11,6 +11,11 @@ import Resumeitem from '../../Components/Resumeitem';
 
 // Define the functional component named About
 const About = () => {
+
+
+
+
+
   return (
     <main className="section container">
       {/* About section */}
@@ -27,7 +32,7 @@ const About = () => {
               <Info />
             </ul>
             {/* Download CV button */}
-            <a href={CV} download='' className='button'>
+            <a href={CV}  className='button'>
               Download CV
               <span className='button__icon'><FaDownload/></span>
             </a>

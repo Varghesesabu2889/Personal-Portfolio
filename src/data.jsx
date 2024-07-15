@@ -87,7 +87,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Phone : ',
-    description: '+918281072889',
+    description: '+91 89218 90586',
   },
   {
     id: 7,
@@ -125,7 +125,7 @@ export const stats = [
   },
   {
     id: 3,
-    no: '2+',
+    no: '+2',
     title: 'Higher <br /> Secondary',
   },
   {
@@ -236,66 +236,147 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Netflix-front-clone',
+    title: 'E-Learning Platform',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website-Design',
+        desc: 'Full Stack Website-Design',
       },
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/Netflix-front-clone.git',
+        data: 'https://github.com/Varghesesabu2889/e-learning-platform.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React Js',
+        desc: 'MERN Stack',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Netlify : ',
-        data: 'https://react-netflixwebsite.netlify.app/',
+        title: 'Deploy : ',
+        data: 'https://skillacademy-eplatform.vercel.app/',
       },
     ],
   },
   {
     id: 2,
     img: Work2,
-    title: 'Cinema-Factory',
+    title: 'Project Fair',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website-Design',
+        desc: 'Full Stack Website-Design',
       },
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/cinema-factory.git',
+        data: 'https://github.com/Varghesesabu2889/projectfair-mern.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React Js',
+        desc: 'MERN Stack',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Netlify : ',
-        data: 'https://cinema-company.netlify.app/',
+        title: 'Deploy : ',
+        data: 'https://projectfairr.netlify.app/',
       },
     ],
   },
   {
     id: 3,
     img: Work3,
+    title: 'Resume Builder',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website-Design with Firebase',
+      },
+      {
+        icon: < FiExternalLink/>,
+        title: 'Github : ',
+        data: 'https://github.com/Varghesesabu2889/resume-builder.git',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js & Firebase',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Deploy : ',
+        data: 'https://resumebooster-87ecf.web.app/',
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: Work4,
+    title: 'Media-Player',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website-Design With Json Server',
+      },
+      {
+        icon: < FiExternalLink/>,
+        title: 'Github : ',
+        data: 'https://github.com/Varghesesabu2889/media-app-frontend.git',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js & JSON Server',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Deploy : ',
+        data: 'https://media-player-reactt.netlify.app/',
+      },
+    ],
+  },
+  {
+    id: 5,
+    img: Work5,
+    title: 'Food-Recipe',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website-Design With API',
+      },
+      {
+        icon: < FiExternalLink/>,
+        title: 'Github : ',
+        data: 'https://github.com/Varghesesabu2889/food-recipe.git',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js & API',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Deploy : ',
+        data: 'https://recipieapp-react.netlify.app/',
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work6,
     title: 'Developer-Game',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website-Design',
+        desc: 'Website-Design using React.js',
       },
       {
         icon: < FiExternalLink/>,
@@ -309,89 +390,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Netlify : ',
+        title: 'Deploy : ',
         data: 'https://developergame.netlify.app/',
-      },
-    ],
-  },
-  {
-    id: 4,
-    img: Work4,
-    title: 'Media-Player',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website-Design',
-      },
-      {
-        icon: < FiExternalLink/>,
-        title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/media-app-frontend.git',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React Js',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Netlify : ',
-        data: 'https://media-player-reactt.netlify.app/',
-      },
-    ],
-  },
-  {
-    id: 5,
-    img: Work5,
-    title: 'Stop-Watch',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website-Design',
-      },
-      {
-        icon: < FiExternalLink/>,
-        title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/Stopwatch.git',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React Js',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Netlify : ',
-        data: 'https://react-stop-watchh.netlify.app/',
-      },
-    ],
-  },
-  {
-    id: 6,
-    img: Work6,
-    title: 'Food-Recipe',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website-Design',
-      },
-      {
-        icon: < FiExternalLink/>,
-        title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/food-recipe.git',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React Js',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Netlify : ',
-        data: 'https://recipieapp-react.netlify.app/',
       },
     ],
   },
