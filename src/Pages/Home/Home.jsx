@@ -1,34 +1,40 @@
 import React from 'react';
-import './Home.css'; // Importing styles for the Home component
-import Profile from "../../assets/home.png"; // Importing the profile image
-import { Link } from 'react-router-dom'; // Importing Link component from react-router-dom
-import { FaArrowRight } from "react-icons/fa"; // Importing ArrowRight icon from react-icons/fa
+import './Home.css';
+import Profile from "../../assets/home.png";
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from "react-icons/fa";
+import { FaHireAHelper } from "react-icons/fa6";
+import Message from "../../assets/VARGHESE_SABU_SAP_ABAP_CONSULTANT_RESUME.pdf";
 
 const Home = () => {
   return (
     <section className='home section grid'>
-      {/* Displaying the profile image */}
-      <img src={Profile} alt="" className='home__img' width={"746px"} height={"1020px"} />
+      <img src={Profile} alt="Profile" className='home__img' width="746px" height="1020px" />
 
       <div className="home__content">
         <div className="home__data">
-          {/* Title and description content */}
-          <h1 className="home__title"><span> I 'm Varghese Sabu.</span> Web Developer</h1>
+          <h1 className="home__title">
+            I 'm Varghese Sabu. <span className="animated-text"></span>
+          </h1>
           <p className="home__description">
-            I 'm an Indian front-end developer focused on crafting clean & user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me.
+            an SAP ABAP Developer specializing in ABAP, ABAP Cloud, SAP S/4HANA, CDS Views, RAP, OData, DDIC, ALV, and Object-Oriented ABAP. I develop scalable business applications, efficient reports, APIs, and Fiori-based solutions using modern SAP development practices.
           </p>
 
-          {/* Link to navigate to the 'about' page */}
           <Link to='/about' className='button'>
             More About Me
             <span className='button__icon'>
               <FaArrowRight />
             </span>
+          </Link> &nbsp;&nbsp;&nbsp;
+          <Link className='button' >
+            Hire Me
+            <span className='button__icon'>
+              <FaHireAHelper />
+            </span>
           </Link>
         </div>
       </div>
 
-      {/* Colored block in the background */}
       <div className="color__block"></div>
     </section>
   );

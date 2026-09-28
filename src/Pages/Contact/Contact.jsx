@@ -48,7 +48,7 @@ const Contact = () => {
               <FaPhoneSquareAlt className='info__icon' />
               <div>
                 <span className="info title">Call me</span>
-                <h4 className="info__desc">+918281072889</h4>
+                <h4 className="info__desc">+918921890586</h4>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const Contact = () => {
             </a>
 
             {/* WhatsApp */}
-            <a href="https://wa.me/+918281072889" target='_blank' className="contact__social-link">
+            <a href="https://wa.me/+918921890586" target='_blank' className="contact__social-link">
               <FaWhatsapp />
             </a>
              {/* Facebook */}
