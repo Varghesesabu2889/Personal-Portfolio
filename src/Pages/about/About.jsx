@@ -4,7 +4,7 @@ import Info from '../../Components/Info';
 import Stats from '../../Components/Stats';
 import './About.css'; // Import styles specific to the About component
 import { FaDownload } from 'react-icons/fa';
-import CV from "../../assets/Varghese-Cv.pdf"; // Import the CV (resume) file
+import CV from "../../assets/VARGHESE_SABU_SAP_ABAP_CONSULTANT_RESUME.pdf"; // Import the CV (resume) file
 import Skills from '../../Components/Skills';
 import { resume } from '../../data'; // Import resume data
 import Resumeitem from '../../Components/Resumeitem';
@@ -33,7 +33,7 @@ const About = () => {
             </ul>
             {/* Download CV button */}
             <a href={CV}  className='button'>
-              Download CV
+              Download Resume
               <span className='button__icon'><FaDownload/></span>
             </a>
           </div>
@@ -65,7 +65,7 @@ const About = () => {
       {/* Resume section */}
       <div className="resume">
         <h3 className="section__subtitle subtitle__center">
-          Internships & Education
+          Experience & Education
         </h3>
         <div className="resume__container grid">
           {/* Render Resumeitem component for each item in the 'Internship' category */}

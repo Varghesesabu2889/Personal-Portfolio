@@ -72,7 +72,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '22 Years',
+    description: '24 Years',
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ export const personalInfo = [
   {
     id: 5,
     title: 'Address : ',
-    description: 'Cherthala, Alappuzha, Kerala, India.',
+    description: 'Electronic City Bangalore, Karnataka, India.',
   },
   {
     id: 6,
@@ -102,7 +102,7 @@ export const personalInfo = [
   {
     id: 9,
     title: 'linkedin : ',
-    data: 'https://www.linkedin.com/in/varghese-sabu/',
+    data: 'https://www.linkedin.com/in/varghese-sabu123/',
   },
   {
     id: 10,
@@ -115,119 +115,118 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '3+',
-    title: 'Years of <br /> Diploma in Computer Engineering',
+    no: '1+',
+    title: 'Years of <br /> Experience in As Sap Abap Associate Consultant at SLITE Consulting LLP, Thiruvanathapuram',
   },
   {
     id: 2,
-    no: '12+',
-    title: 'Completed <br /> Projects',
+    no: '21+',
+    title: 'Completed <br /> Full Stack Projects using SAP ABAP with Deployed in  SAP Fiori Launchpad also MERN Stack Web Development Projects',
   },
   {
     id: 3,
-    no: '+2',
-    title: 'Higher <br /> Secondary',
+    no: '+3',
+    title: 'Diploma in <br /> Computer Engineering (Polytechnic, After Higher Secondary Education) ',
   },
   {
     id: 4,
-    no: '13+',
-    title: ' Awards <br /> Won',
+    no: '2+',
+    title: ' Internships for SAP ABAP & Web Development in MERN Stack after Education <br /> ',
   },
 ];
 
 // Resume or work and education history
 export const resume = [
-  {
+{
     id: 1,
     category: 'Internship',
     icon: <FaBriefcase />,
-    year: '2023 SEPTEMBER - 2024 APRIL',
-    title: 'MEA(R)N STACK<span>WEB DEVELOPMENT  </span>',
-    desc: 'A ME(A)RN (MongoDB, Express.js, React.js, Angular, and Node.js) stack development course provides comprehensive training in building modern web applications. Currently interning at Luminar Technolab Kochi',
+    year: '2026 January -  2026 May',
+    title: 'Associate SAP ABAP Consultant  <span> SLITE CONSULTING LLP Thiruvanathapuram (On-Site) </span>',
+    desc: 'Engineered and delivered SAP ABAP solutions in SAP S/4HANA environments for client-facing business applications. Developed RESTful OData services using SAP RAP to support enterprise API integrations and designed and optimized CDS Views for analytical and transactional data models. Collaborated with cross-functional teams to gather requirements and translated complex business logic into scalable and maintainable ABAP solutions.',
   },
   {
     id: 2,
     category: 'Internship',
     icon: <FaBriefcase />,
-    year: 'August 2022',
-    title: 'Application Development using Flutter <span> Mobile Application Development </span>',
-    desc: 'Flutter is a versatile UI toolkit developed by Google for creating natively compiled applications across various platforms, such as iOS, Android, and the web, using a single codebase. Interning at VerDant Power Solutions.',
+    year: '2025 August - 2026 January',
+    title: 'SAP ABAP Intern  <span> SLITE CONSULTING LLP Thiruvanathapuram (On-Site)</span>',
+    desc: 'Developed classical and interactive ABAP reports, Smart Forms, and Data Dictionary objects within SAP S/4HANA systems. Applied modularization techniques using function modules, classes, and methods to support code reusability and maintainability. Performed ABAP debugging and performance tuning to identify runtime inefficiencies in custom report execution.',
   },
   {
     id: 3,
     category: 'Internship',
     icon: <FaBriefcase />,
-    year: 'April 2018',
-    title: ' E-learning program of Computer Programming <span>C++ Programming</span>',
-    desc: 'C++ is a powerful, general-purpose programming language known for its performance and efficiency, widely used in systems programming, game development, and applications requiring low-level memory manipulation. Interning at RUTRONIX.',
+    year: '2024 September - 2024 April',
+    title: 'MERN STACK FULL STACK <span> ZIDIO DEVELOPMENT Bangalore (Remote)  </span> ',
+    desc: 'Gained hands-on experience in full-stack web development using MongoDB, Express.js, React.js, and Node.js. Built dynamic and responsive web applications by developing React-based front-end interfaces, Node.js and Express.js back-end services, REST APIs, and MongoDB database operations. Applied practical skills in API integration, database management, component-based development, and end-to-end application development, strengthening my ability to work across both front-end and back-end technologies.',
   },
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2020-2023',
-    title: 'Diploma in <span> Computer Engineering </span>',
-    desc: 'A Diploma in Computer Engineering typically spans three years and offers comprehensive education in computer hardware, software, and systems. Studied at Carmel Polytechnic College, Alappuzha.',
+    year: '2024 November - 2025 January',
+    title: 'SAP ABAP Training <span> VACS SAP EDU Institute, Thane, Maharashtra  </span>',
+    desc: 'Completed SAP ABAP training with a focus on SAP S/4HANA environment,  Data Dictionary,  SAP RAP,  CDS Views and ABAP Debugging. Gained hands-on exposure to SAP backend development and practical implementation of ABAP concepts in S/4HANA environments. Along with the  training,  earned the SAP Certified Associate - BackEnd Developer  –  ABAP Cloud, demonstrating knowledge of modern SAP ABAP Cloud development.',
   },
+  
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: 'JULY 2018',
-    title: 'Higher Secondary <span> Plus two  </span>',
-    desc: 'Higher Secondary Education, often referred to as "Plus Two," generally represents the last two years of pre-university education. It typically includes students in the 11th and 12th grades, providing a more specialized and in-depth curriculum and serves as a preparatory stage for higher education or vocational training. Studied at Holy Family Higher School Cherthala.',
+     year: '2023 September - 2024 April 2024',
+    title: 'MEAN / MERN FullStack Web Development <span> Luminar Technolab Kochi, Kerala </span>',
+    desc: 'Completed ME(A)RN Full Stack Development training with hands-on exposure to MongoDB, Express.js, React.js, and Node.js. Developed practical knowledge of full-stack web development, including frontend and backend development, API integration, and database management. Applied these technologies to understand the complete development cycle of dynamic and responsive web applications.',
   },
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: 'MARCH 2018',
-    title: 'High School <span> Tenth </span>',
-    desc: `High school or tenth grade typically refers to the last year of compulsory education before students move on to higher levels of education or enter the workforce. In many educational systems, high school encompasses grades 9 to 12, with the tenth grade representing the second year of this phase. Studied at St Theresa's High School Manappuram.`,
-  },
-];
+    year: '2020 November - 2023 July',
+    title: 'Diploma in Computer Engineering <span>Carmel Polytechnic College, Alappuzha , Kerala </span>',
+    desc: 'Completed a Diploma in Computer Engineering, building a strong technical foundation in computer engineering, programming, software development, and problem-solving. Gained foundational knowledge of computer systems, software concepts, databases, and web technologies.This academic foundation supported my progression into SAP ABAP and full-stack web development.',
+  }
+  ];
 
 // Skills data with percentages
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '95',
-  },
-  {
-    id: 2,
-    title: 'CSS',
-    percentage: '85',
-  },
-  {
-    id: 3,
-    title: 'Javascript',
+    title: 'Modern ABAP',
     percentage: '75',
   },
   {
+    id: 2,
+    title: 'CDS Views',
+    percentage: '70',
+  },{
+    id: 3,
+    title: ' SAP RAP',
+    percentage: '86',
+  },{
     id: 4,
-    title: 'Figma',
-    percentage: '65',
+    title: 'AMDP',
+    percentage: '45',
   },
   {
     id: 5,
-    title: 'React',
-    percentage: '79',
+    title: 'Core ABAP',
+    percentage: '65',
   },
   {
     id: 6,
-    title: 'Angular',
-    percentage: '69',
+    title: 'Data Dictionary',
+    percentage: '85',
   },
   {
     id: 7,
-    title: 'MongoDB',
-    percentage: '82',
+    title: 'Report Programming',
+    percentage: '75',
   },
   {
     id: 8,
-    title: 'Express',
-    percentage: '76',
+    title: 'MERN',
+    percentage: '83',
   },
 ];
 
@@ -236,27 +235,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'E-Learning Platform',
+    title: 'E Commerce Sales Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Full Stack Website-Design',
+        desc: 'Using RAP Framework of SAP with Deployed on that Server Fiori Launchpad',
       },
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/e-learning-platform.git',
+        data: 'No Repository For it',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'MERN Stack',
+        desc: 'ABAP, EML, Fiori',
       },
       {
         icon: <FiExternalLink />,
         title: 'Deploy : ',
-        data: 'https://skillacademy-eplatform.vercel.app/',
+        data: 'Deployed on That Server SAP Launchpad Cannot be access',
       },
     ],
   },
@@ -371,7 +370,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Developer-Game',
+    title: 'NAK Game',
     details: [
       {
         icon: <FiFileText />,
@@ -381,7 +380,7 @@ export const portfolio = [
       {
         icon: < FiExternalLink/>,
         title: 'Github : ',
-        data: 'https://github.com/Varghesesabu2889/Developer-Game.git',
+        data: 'https://github.com/Varghesesabu2889/kbc-mern.git',
       },
       {
         icon: <FaCode />,
@@ -391,7 +390,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Deploy : ',
-        data: 'https://developergame.netlify.app/',
+        data: 'https://kbc-mern.vercel.app/',
       },
     ],
   },
